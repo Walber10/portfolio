@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: #818181;;
+}
+
+#nav-bar {
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #818181;
+}
+
+.navbar-brand img {
+    height: 90px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: rgb(0, 123, 255)!important;
+}
+
+.navbar {
+    background: #818181;
+}
+
+.navbar-toggler 
+{
+    border: none!important;
+}
+
+.nav-link {
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+#slider {
+    width: 100%;
+    
+
+}
+
+img {
+    opacity: 90%;
+}
+
+.carousel-caption  {
+    font-size: 20px;
+    top: 70% ;
+    transform: translateY(-50%);
+    bottom: initial!important;
+    
+}
+
+
+
+
+.trial {
+    margin-left: 15px;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .07em;
+    min-width: 100px;
+    border-radius: 20px;
+    color: #00b2ba;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00b2ba;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.4;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+    opacity: 90%;
+    
+    
+}
+
+#link :hover {
+    color: pink;
+    color: ;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 760px) {
+    .link {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      font-size: 10px;
+    }
+  }
+
+/*--------------about----*/
+
+
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555 ;
+    text-align: center;
+}
+
+.list-cta-buttons-carousel {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+
+#about .btn {
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+button.btn.btn-secondary.btn-lg {
+
+    margin-top: 10px;
+   padding: 0.5rem 0.5rem;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    color: #00b2ba;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00b2ba;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 6px 12px;
+    border-radius: 0;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.about-content {
+    margin-top: -10px;
+    padding-top: 20px;
+    color: #87888A;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 23px;
+    text-align: center;
+    
+}
+
+.teste {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.teste2 {
+    margin-top: 20px
+    text-align: center;
+}
+
+.teste3 {
+    text-align: center;
+}
+
+.teste6 {
+    margin-top: -10px;
+}
+
+
+/*--------services----*/
+
+#services {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1 ::after {
+
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px ;
+}
+
+#services h5 {
+    text-align: center;
+}
+
+
+
